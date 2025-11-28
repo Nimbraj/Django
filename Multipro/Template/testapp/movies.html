@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'Css/style.css' %}">
+    <title>Main Page</title>
+</head>
+<body>
+   
+    <h1>Welcome to our movies page</h1>
+    <h2>Here we get updates of Movies, Sports, Politics</h2>
+
+    <div class="images">
+        <!-- Online Images -->
+        <img src="https://picsum.photos/250/150?random=1" alt="Random Image 1">
+        <img src="https://picsum.photos/250/150?random=2" alt="Random Image 2">
+        <img src="https://picsum.photos/250/150?random=3" alt="Random Image 3">
+        <img src="https://picsum.photos/250/150?random=4" alt="Random Image 4">
+    </div>
+
+    <ul>
+        <li><a href="/mov/">Movies</a></li>
+        <li><a href="/spo/">Sports</a></li>
+        <li><a href="/pol/">Politics</a></li>
+        <li><a href="/a/">Home</a></li>
+    </ul>
+
+</body>
+</html>

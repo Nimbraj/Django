@@ -1,0 +1,12 @@
+body{
+    background: #27c28e;
+}
+h1{
+    color: blueviolet;
+}
+.images{
+    display: flex;
+    justify-content:center;
+    column-gap: 111px;
+    align-items: center;
+}
