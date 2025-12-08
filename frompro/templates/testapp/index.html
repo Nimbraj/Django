@@ -8,19 +8,22 @@
 </head>
 <body>
 
-    {% if submit %}
     <div class="container">
-        <h1>Thank you {{ name }} for providing information</h1>
-        <h2>Please fill the student data form</h2>
 
-        <form method='POST'>
-          
-            {{ data }}
-              {% csrf_token %}
+        {% if submit %}
+            <h1>Thank you {{ name }} for providing information</h1>
+            <h2>Please fill the student data form</h2>
+        {% else %}
+            <h1>Student Registration Form</h1>
+        {% endif %}
+
+        <form method="POST">
+            {% csrf_token %}
+            {{ data}}
             <input type="submit" value="Submit">
         </form>
+
     </div>
-    {% endif %}
 
 </body>
 </html>

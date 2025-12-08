@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'testapp/Base.html' %}
+
+{% block child_block %}
+<div class="container mt-4">
+    <h1>Our Services</h1>
+
+    <div class="row mt-3">
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h4>Web Development</h4>
+                <p>We build modern and responsive websites.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h4>App Development</h4>
+                <p>Android and iOS app development services.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h4>Software Solutions</h4>
+                <p>Custom software and automation solutions.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+</body>
+</html>

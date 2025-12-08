@@ -38,7 +38,7 @@ class Registration(forms.Form):
         label='Confirm Password'
     )
 
-    feedback = forms.CharField(
+    feedback =forms.CharField(
         max_length=100,
         label='Feedback'
     )

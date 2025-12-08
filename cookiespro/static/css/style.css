@@ -1,0 +1,20 @@
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(2, 156, 156);
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+span {
+    color: rgb(240, 67, 15);
+}
